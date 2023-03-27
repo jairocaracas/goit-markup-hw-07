@@ -60,13 +60,6 @@ body h5 {
 .list {
   list-style: none;
 }
-.container {
-  margin: 0 auto;
-  width: 1200px;
-}
-.section {
-  padding: 94px 0;
-}
 
 /*---------- Navigation bar ----------*/
 
@@ -702,7 +695,7 @@ svg.footer__icon {
 }
 
 .is-hidden {
-  /* visibility: hidden; */
+  visibility: hidden;
   opacity: 0;
   pointer-events: none;
   transition: opacity 500ms ease-in-out;
